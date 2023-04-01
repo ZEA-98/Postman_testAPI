@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "9ed4b1ba-a883-4b2a-8f43-9ca39d773b64",
+		"name": "Simple books API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "23032190-9ed4b1ba-a883-4b2a-8f43-9ca39d773b64"
+	},
+	"item": [
+		{
+			"name": "home page",
+			"id": "c23f6167-5d85-4a3b-87d6-b36796430a3b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetching status",
+			"id": "2523a967-848d-42a2-856c-0128b4c4419c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/status",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetching list books",
+			"id": "7e0bb241-b70f-40d7-8ae7-0384fc603717",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetching single book details",
+			"id": "6ab01be9-de82-4562-a80c-a014a974b391",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://simple-books-api.glitch.me/books/:bookid",
+					"protocol": "https",
+					"host": [
+						"simple-books-api",
+						"glitch",
+						"me"
+					],
+					"path": [
+						"books",
+						":bookid"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2",
+							"disabled": true
+						}
+					],
+					"variable": [
+						{
+							"key": "bookid",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

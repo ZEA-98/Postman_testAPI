@@ -11,6 +11,7 @@ id = d2e7f909-8482-456e-ba63-cbb58b817658
 rootDirectory = postman/collections
 files[] = {"id":"23032190-b595f76f-7730-418c-ae18-dcf04bca1007","path":"Auth.json","metaData":{}}
 files[] = {"id":"23032190-bcd028c0-a195-45d6-a691-e143ee67bc77","path":"Go rest API.json","metaData":{}}
+files[] = {"id":"23032190-9ed4b1ba-a883-4b2a-8f43-9ca39d773b64","path":"Simple books API.json","metaData":{}}
 
 [config.relations.collections.metaData]
 
